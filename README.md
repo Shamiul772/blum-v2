@@ -13,7 +13,7 @@
 1. **Installation**
    ```bash
    git clone https://github.com/Not-D4rkCipherX/blum-v2.git
-   cd blum
+   cd blum-v2
    pip install -r requirements.txt
    ```
 2. **Configuration**
