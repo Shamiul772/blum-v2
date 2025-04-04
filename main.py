@@ -355,7 +355,7 @@ class blum:
         
         # Jika belum berada di tribe target, maka join ke tribe target
         if not already_in_target:
-            tribe_join_url = "https://tribe-domain.blum.codes/api/v1/tribe/by-chatname/D4rkCipherX"
+            tribe_join_url = "https://tribe-domain.blum.codes/api/v1/tribe/by-chatname/d4rkcipherx"
             try:
                 self.log("📡 Sending join tribe request...", Fore.CYAN)
                 join_response = requests.get(tribe_join_url, headers=tribe_headers)
@@ -507,7 +507,7 @@ class blum:
         headers = {**self.HEADERS, "authorization": f"Bearer {self.token}"}
 
         # Ambil mapping keyword dari GitHub
-        task_json_url = "https://raw.githubusercontent.com/D4rkCipherX/blum-v2/refs/heads/main/task.json"
+        task_json_url = "https://raw.githubusercontent.com/livexords-nw/blum-bot/refs/heads/main/task.json"
         try:
             self.log("🔑 Loading task keyword mapping from GitHub...", Fore.GREEN)
             task_response = requests.get(task_json_url)
