@@ -49,7 +49,7 @@ nano config.json
 
    - Only HTTP and HTTPS proxies are supported.
    
-5.**START THE BOT**
+5. **START THE BOT**
 ```bash
 python main.py
 ```
