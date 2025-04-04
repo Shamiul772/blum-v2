@@ -39,7 +39,17 @@ nano config.json
    ```
    nano query.txt
    ```
-4.**START THE BOT**
+   
+4. **Set Up Proxy (Optional)**  
+   To use a proxy, create a `proxy.txt` file and add proxies in the format:
+
+   ```
+   http://username:password@ip:port
+   ```
+
+   - Only HTTP and HTTPS proxies are supported.
+   
+5.**START THE BOT**
 ```bash
 python main.py
 ```
