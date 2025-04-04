@@ -4,6 +4,10 @@
 
 - Auto Play Game
 - Auto Claim Daily
+- Auto Task
+- Auto farming
+- Multi Account
+- Proxy Support
 
 ## COMMANDS
 1. **Installation**
