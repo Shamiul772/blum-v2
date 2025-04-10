@@ -1,3 +1,7 @@
+from keep_alive import keep_alive
+keep_alive()
+
+
 from datetime import datetime
 import time
 from colorama import Fore
@@ -1101,3 +1105,5 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+app.run(host="0.0.0.0", port=8080)
