@@ -12,7 +12,7 @@
 ## COMMANDS
 1. **Installation**
    ```bash
-   git clone https://github.com/Not-D4rkCipherX/blum-v2.git
+   git clone https://github.com/Shamiul772/blum-v2.git
    cd blum-v2
    pip install -r requirements.txt
    ```
