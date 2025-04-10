@@ -1,3 +1,4 @@
+flask
 colorama
 requests
 fake-useragent
